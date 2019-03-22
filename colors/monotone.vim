@@ -326,7 +326,7 @@ hi Define guifg=#888888
 hi Statement guifg=#999999
 hi Special guifg=#999999
 hi Type guifg=#999999
-hi ClojureKeyword guifg=#666666 gui=bold
+hi ClojureKeyword guifg=#aaaaaa gui=bold
 hi ClojureSymbol guifg=#999999
 hi ClojureString guifg=#dddddd gui=italic
 hi ClojureFunc guifg=#dddddd gui=italic
@@ -351,3 +351,9 @@ hi JavaScriptBraces guifg=#ffffff
 hi MatchParen guibg=#444444 guifg=#000000 gui=bold
 
 set background=dark
+
+let g:rainbow_conf = {
+      \ 'guifgs': [
+      \ '#bbbbbb', '#555555', '#eeeeee', '#666666', '#dddddd', '#888888', '#cccccc', '#444444'
+      \]
+      \}
